@@ -1,0 +1,25 @@
+###  GET Request API 1 player_details table
+GET http://localhost:3001/players/
+
+### GET Request API 2 player_details table
+GET http://localhost:3001/players/2/
+
+### PUT Request API 3 player_details table
+PUT http://localhost:3001/players/5/
+Content-Type: application/json
+
+{
+  "playerName": "Raju"
+}
+
+### GET Request API 4 match_details
+GET http://localhost:3001/matches/18/
+
+### GET Request API 5 player_details table
+GET http://localhost:3001/players/2/matches
+
+### GET Request API 6 Returns a list of players of a specific match
+GET http://localhost:3001/matches/2/players
+
+### GET Request API 7 statistics
+GET http://localhost:3001/players/1/playerScores
